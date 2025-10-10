@@ -1,13 +1,13 @@
-# Your Name Here
+# Miguel Angelo Vasquez
 
-## Your Title Here
+## High End Restaurant General Manager
 
-Here is a brief description of you, your history, and what it is your looking for
+As a seasoned General Manager at a premier dining establishment, Miguel oversees daily operations, leads a diverse team, and ensures an exceptional guest experience. He excels at maintaining high service standards, managing budgets, and fostering a culture of excellence in hospitality.
 
 ### 📫 Contact
 
-- [LinkedIn](https://www.linkedin.com/in/yournamehere)
-- Email: <yourname@gmail.com>
+- [LinkedIn](https://www.linkedin.com/in/miguelvasquez)
+- Email: <bigmig69@gmail.com>
 
 ---
 
