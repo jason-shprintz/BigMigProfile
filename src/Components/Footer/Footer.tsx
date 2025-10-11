@@ -1,7 +1,7 @@
 import type { JSX } from "react";
 import * as S from "./styles";
 import { SmallMuted } from "../../styles";
-import { LINKS } from "../../constants";
+import { LINKS, PERSONAL_INFO } from "../../constants";
 
 /**
  * Renders the footer section of the website.
@@ -13,7 +13,9 @@ function Footer(): JSX.Element {
   return (
     <S.Footer>
       <S.FooterInner>
-        <div>© {new Date().getFullYear()} Jason Shprintz</div>
+        <div>
+          © {new Date().getFullYear()} {PERSONAL_INFO.name}
+        </div>
         <SmallMuted>
           <a href={LINKS.linkedin}>
             <img

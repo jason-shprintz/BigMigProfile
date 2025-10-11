@@ -23,11 +23,13 @@ export const LINKS = {
 };
 
 export const PERSONAL_INFO = {
-  name: "Your Name",
-  role: "Your Role",
-  description_brief: "A brief description about you.",
+  name: "Miguel Anthony Vasquez",
+  role: "General Manager",
+  description_brief:
+    "Highly skilled and experienced General Manager living in the greatest hospitality city in the world.",
   description: [
-    "A detailed description about you, your skills, experience, and what you bring to the table.",
-    "Another paragraph if needed.",
+    "I’m Miguel Anthony Vasquez, and I’ve spent over thirty years in the restaurant and hospitality industry, with more than twenty of those years managing high-end restaurants. Over the course of my career, I’ve had the privilege of leading teams and creating exceptional dining experiences in cities like Philadelphia, Florida, San Diego, and now Las Vegas.",
+    "My passion lies in combining operational excellence with a focus on hospitality. I thrive on mentoring staff, streamlining operations, and ensuring that every guest enjoys an unforgettable experience. I take pride in building strong, motivated teams that share my commitment to quality and service.",
+    "Throughout my journey, I’ve learned that success in this industry comes from balancing attention to detail with adaptability and innovation. Whether it’s refining service standards, managing complex operations, or launching new concepts, I bring dedication, experience, and energy to every project I take on.",
   ],
 };

@@ -5,7 +5,7 @@ import { DEVICE_TYPES, PERSONAL_INFO } from "../../constants";
 import useDeviceType from "../../hooks/useDeviceType";
 
 /**
- * Renders the hero section of the portfolio site, introducing Jason Shprintz.
+ * Renders the hero section of the portfolio site.
  *
  * Displays the developer's name, role, a brief description, and call-to-action buttons.
  * Includes an avatar image, meta information, and a link to download the resume.
