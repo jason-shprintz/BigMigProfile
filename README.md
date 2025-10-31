@@ -6,8 +6,7 @@ As a seasoned General Manager at a premier dining establishment, Miguel oversees
 
 ### 📫 Contact
 
-- [LinkedIn](https://www.linkedin.com/in/miguelvasquez)
-- Email: <bigmig69@gmail.com>
+- Email: <michaelangelovasquez@myyahoo.com>
 
 ---
 
