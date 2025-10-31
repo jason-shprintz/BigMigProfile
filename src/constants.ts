@@ -17,9 +17,9 @@ export const DEVICE_TYPES = {
 };
 
 export const LINKS = {
-  github: "https://github.com/your-name",
-  linkedin: "https://www.linkedin.com/in/your-name/",
-  email: "mailto:your-email@gmail.com",
+  github: "https://github.com/miguel-vasquez",
+  linkedin: "https://www.linkedin.com/in/miguel-vasquez-gm/",
+  email: "mailto:miguel.vasquez@restaurantgm.com",
 };
 
 export const PERSONAL_INFO = {

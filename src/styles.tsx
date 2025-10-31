@@ -3,12 +3,12 @@ import { MEDIA_QUERIES } from "./constants";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --bg: #0b1220;
-    --card: #05090e;
-    --muted: #9aa4b2;
-    --accent: #646cff;
-    --accent-2: #61dafb;
-    --glass: rgba(255,255,255,0.02);
+    --bg: #1a1611;
+    --card: #2c251f;
+    --muted: #c4a882;
+    --accent: #d4af37;
+    --accent-2: #b8860b;
+    --glass: rgba(212,175,55,0.08);
   }
 
   /* animations */
@@ -16,9 +16,9 @@ export const GlobalStyle = createGlobalStyle`
   @keyframes menuIn { from { opacity:0; transform: translateY(-6px)} to { opacity:1; transform: translateY(0)} }
 
   html, body, #root { height: 100%; width: 100%;}
-  body { margin:0; font-family: Tomorrow, system-ui, Avenir, Helvetica, Arial, sans-serif; line-height:1.5; background: var(--bg); color: rgba(255,255,255,0.87); -webkit-font-smoothing:antialiased }
+  body { margin:0; font-family: 'Playfair Display', Georgia, serif, system-ui, Avenir, Helvetica, Arial, sans-serif; line-height:1.5; background: var(--bg); color: rgba(255,255,255,0.87); -webkit-font-smoothing:antialiased }
   a { color: var(--accent); text-decoration: none; user-select: none; }
-  a:hover { color: #535bf2 }
+  a:hover { color: var(--accent-2) }
 `;
 
 export const AppRoot = styled.div`
@@ -28,7 +28,7 @@ export const AppRoot = styled.div`
   justify-content: center;
   align-items: flex-start;
   box-sizing: border-box;
-  background-color: #0b1220;
+  background-color: #1a1611;
   user-select: none;
 `;
 
@@ -37,7 +37,7 @@ export const AppContainer = styled.div`
   max-width: 1100px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #0b1220;
+  background-color: #1a1611;
   box-sizing: border-box;
   font-size: 1.5rem;
 

@@ -22,12 +22,11 @@ function Hero(): JSX.Element {
       <S.HeroInner>
         {!isTorM && (
           <S.HeroCard>
-            <SharedS.AvatarWrapper>
-              <SharedS.Avatar
-                src={"assets/images/headshot_cropped.png"}
-                alt={`${PERSONAL_INFO.name} headshot`}
-              />
-            </SharedS.AvatarWrapper>
+            <SharedS.Avatar
+              src={"assets/images/headshot.png"}
+              alt={`${PERSONAL_INFO.name} headshot`}
+            />
+
             <S.HeroMeta>
               <S.MetaName>{PERSONAL_INFO.name}</S.MetaName>
               <S.MetaRole>{PERSONAL_INFO.role}</S.MetaRole>
@@ -45,11 +44,6 @@ function Hero(): JSX.Element {
             </>
           )}
           <S.Lead>{PERSONAL_INFO.description_brief}</S.Lead>
-          <SharedS.FlexRow>
-            <SharedS.OpenRolesBadge href="#contact">
-              Currently open to new roles!
-            </SharedS.OpenRolesBadge>
-          </SharedS.FlexRow>
         </S.HeroCopy>
       </S.HeroInner>
     </S.Hero>

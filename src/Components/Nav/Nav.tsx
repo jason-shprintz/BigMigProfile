@@ -65,12 +65,10 @@ function Nav(): JSX.Element {
         <S.Brand>
           {!isTorM && <NavSocial isTorM={isTorM} />}
           {isTorM ? (
-            <SharedS.AvatarWrapper>
-              <SharedS.Avatar
-                src={"assets/images/headshot_cropped.png"}
-                alt={`${PERSONAL_INFO.name} headshot`}
-              />
-            </SharedS.AvatarWrapper>
+            <SharedS.Avatar
+              src={"assets/images/headshot.png"}
+              alt={`${PERSONAL_INFO.name} headshot`}
+            />
           ) : (
             <S.NavTitleContainer>
               <S.NavTitle>{PERSONAL_INFO.name}</S.NavTitle>

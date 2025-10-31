@@ -20,21 +20,21 @@ export const ExpItem = styled.div`
   flex-direction: row;
   background-image: linear-gradient(
     to right bottom,
-    #0b1220,
-    #0f182b,
-    #141e36,
-    #1a2342,
-    #21284d,
-    #1f284c,
-    #1e284a,
-    #1c2849,
-    #14223a,
-    #101b2c,
-    #0c141d,
-    #05090e
+    #1a1611,
+    #201c15,
+    #262019,
+    #2c251f,
+    #322a23,
+    #2f2822,
+    #2c2520,
+    #29221f,
+    #241e18,
+    #1f1914,
+    #1a1611,
+    #15120e
   );
   border-radius: 10px;
-  box-shadow: -1px 1px 2px 1px black;
+  box-shadow: -1px 1px 2px 1px rgba(0, 0, 0, 0.6);
 
   ${MEDIA_QUERIES.mobile} {
     flex-direction: column;

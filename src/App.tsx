@@ -2,8 +2,6 @@ import Footer from "./Components/Footer/Footer";
 import Contact from "./Components/Contact/Contact";
 import Nav from "./Components/Nav/Nav";
 import Hero from "./Components/Hero/Hero";
-import Skills from "./Components/Skills/Skills";
-// import Projects from "./Components/Projects/Projects";
 import Experience from "./Components/Experience/Experience";
 import type { JSX } from "react";
 import { GlobalStyle, AppContainer, AppRoot } from "../src/styles";
@@ -41,8 +39,6 @@ function App(): JSX.Element {
         <main>
           <Hero />
           <About />
-          <Skills />
-          {/* <Projects /> */}
           <Experience />
           <Contact />
         </main>
