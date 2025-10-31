@@ -97,7 +97,7 @@ const experience: Experience[] = [
     title: "Server / Trainer",
     time: "Apr 1999 - Jun 2003 | Oct 2010 - Nov 2011",
     description: [
-      "Served at multiple concepts: Dakota Grille & Spirits, THe Prado @ Balboa Park, Indigo Grill, & Blue Point Coastal Cuisine",
+      "Served at multiple concepts: Dakota Grille & Spirits, The Prado @ Balboa Park, Indigo Grill, & Blue Point Coastal Cuisine",
       "Trained new hires and supported opening teams",
     ],
   },
