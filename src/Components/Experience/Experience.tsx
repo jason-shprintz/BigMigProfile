@@ -25,7 +25,13 @@ function Experience(): JSX.Element {
                     <S.JobImg src={job.imgSrc} alt={job.name} />
                     <strong>{job.name}</strong>
                   </S.JobContainer>
-
+                  {job.location.map((loc, idx) => {
+                    return (
+                      <Muted key={idx} style={{ fontSize: "0.6rem" }}>
+                        {loc}
+                      </Muted>
+                    );
+                  })}
                   <Muted>{job.title}</Muted>
                   <SmallMuted>{job.time}</SmallMuted>
                 </S.ExpLeft>

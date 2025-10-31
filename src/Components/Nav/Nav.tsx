@@ -93,16 +93,6 @@ function Nav(): JSX.Element {
             </S.NavLink>
           </li>
           <li>
-            <S.NavLink href="#skills" onClick={() => setOpen(false)}>
-              Skills
-            </S.NavLink>
-          </li>
-          {/* <li>
-            <S.NavLink href="#projects" onClick={() => setOpen(false)}>
-              Projects
-            </S.NavLink>
-          </li> */}
-          <li>
             <S.NavLink href="#experience" onClick={() => setOpen(false)}>
               Experience
             </S.NavLink>

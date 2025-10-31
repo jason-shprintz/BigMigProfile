@@ -30,7 +30,10 @@ function Hero(): JSX.Element {
             <S.HeroMeta>
               <S.MetaName>{PERSONAL_INFO.name}</S.MetaName>
               <S.MetaRole>{PERSONAL_INFO.role}</S.MetaRole>
-              <S.SmallLink href="assets/documents/Your_Resume.pdf" download>
+              <S.SmallLink
+                href="assets/documents/Miguel_Anthony_Vasquez_Resume.pdf"
+                download
+              >
                 Download Resume
               </S.SmallLink>
             </S.HeroMeta>
