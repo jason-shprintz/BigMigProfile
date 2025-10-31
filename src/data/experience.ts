@@ -9,7 +9,7 @@ type Experience = {
 
 const experience: Experience[] = [
   {
-    imgSrc: "assets/images/bellagio.png",
+    imgSrc: "assets/images/restaurants/water_grill.png",
     name: "Water Grill",
     location: ["San Diego, CA", "Las Vegas, NV"],
     title: "Server",
@@ -20,7 +20,7 @@ const experience: Experience[] = [
     ],
   },
   {
-    imgSrc: "assets/images/caesars.png",
+    imgSrc: "assets/images/restaurants/eddie_v.png",
     name: "Eddie V's at The Police Headquarters",
     location: ["San Diego, CA"],
     title: "Lead Server",
@@ -31,7 +31,7 @@ const experience: Experience[] = [
     ],
   },
   {
-    imgSrc: "assets/images/caesars.png",
+    imgSrc: "assets/images/restaurants/bubba_gump.png",
     name: "Bubba Gump Shrimp Co.",
     location: ["Madeira Beach, FL"],
     title: "Bar Manager",
@@ -42,7 +42,7 @@ const experience: Experience[] = [
     ],
   },
   {
-    imgSrc: "assets/images/caesars.png",
+    imgSrc: "assets/images/restaurants/a_r_valentien.png",
     name: "A.R. Valentein's at The Lodge at Torrey Pines",
     location: ["La Jolla, CA"],
     title: "Server",
@@ -53,7 +53,7 @@ const experience: Experience[] = [
     ],
   },
   {
-    imgSrc: "assets/images/caesars.png",
+    imgSrc: "assets/images/restaurants/union.png",
     name: "Union Kitchen & Tap",
     location: ["La Jolla, CA"],
     title: "Operations Manager / Beverage Director",
@@ -64,7 +64,7 @@ const experience: Experience[] = [
     ],
   },
   {
-    imgSrc: "assets/images/caesars.png",
+    imgSrc: "assets/images/restaurants/oceanaire.png",
     name: "The Oceanaire Seafood Room",
     location: [
       "Miami, FL",
@@ -80,7 +80,7 @@ const experience: Experience[] = [
     ],
   },
   {
-    imgSrc: "assets/images/caesars.png",
+    imgSrc: "assets/images/restaurants/top_of_the_market.png",
     name: "Top of the Market",
     location: ["San Diego, CA"],
     title: "Server",
@@ -91,7 +91,7 @@ const experience: Experience[] = [
     ],
   },
   {
-    imgSrc: "assets/images/caesars.png",
+    imgSrc: "assets/images/restaurants/cohn_restaurant_group.png",
     name: "Cohn Restaurant Group",
     location: ["San Diego, CA"],
     title: "Server / Trainer",

@@ -3,7 +3,7 @@ import * as S from "./styles";
 import * as SharedS from "../../shared/styles";
 import useDeviceType from "../../hooks/useDeviceType";
 import { DEVICE_TYPES, PERSONAL_INFO } from "../../constants";
-import NavSocial from "./NavSocial/NavSocial";
+// import NavSocial from "./NavSocial/NavSocial";
 
 /**
  * Navigation bar component for the portfolio site.
@@ -63,7 +63,7 @@ function Nav(): JSX.Element {
     <S.NavBar ref={navRef}>
       <S.NavInner>
         <S.Brand>
-          {!isTorM && <NavSocial isTorM={isTorM} />}
+          {/* {!isTorM && <NavSocial isTorM={isTorM} />} */}
           {isTorM ? (
             <SharedS.Avatar
               src={"assets/images/full_body.jpg"}
@@ -75,7 +75,7 @@ function Nav(): JSX.Element {
               <SharedS.Subtitle>{PERSONAL_INFO.role}</SharedS.Subtitle>
             </S.NavTitleContainer>
           )}
-          {isTorM && <NavSocial isTorM={isTorM} />}
+          {/* {isTorM && <NavSocial isTorM={isTorM} />} */}
         </S.Brand>
 
         <S.MobileToggle

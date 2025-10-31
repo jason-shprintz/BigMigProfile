@@ -1,7 +1,7 @@
 import type { JSX } from "react";
 import * as S from "./styles";
-import { SmallMuted } from "../../styles";
-import { LINKS, PERSONAL_INFO } from "../../constants";
+import { PERSONAL_INFO } from "../../constants";
+import NavSocial from "../Nav/NavSocial/NavSocial";
 
 /**
  * Renders the footer section of the website.
@@ -16,14 +16,7 @@ function Footer(): JSX.Element {
         <div>
           © {new Date().getFullYear()} {PERSONAL_INFO.name}
         </div>
-        <SmallMuted>
-          <a href={LINKS.linkedin}>
-            <img
-              src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff"
-              alt="LinkedIn"
-            />
-          </a>
-        </SmallMuted>
+        <NavSocial isTorM={true} />
       </S.FooterInner>
     </S.Footer>
   );
