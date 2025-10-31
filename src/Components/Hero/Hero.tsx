@@ -23,7 +23,7 @@ function Hero(): JSX.Element {
         {!isTorM && (
           <S.HeroCard>
             <SharedS.Avatar
-              src={"assets/images/headshot.png"}
+              src={"assets/images/full_body.jpg"}
               alt={`${PERSONAL_INFO.name} headshot`}
             />
 

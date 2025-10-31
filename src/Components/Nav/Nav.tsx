@@ -66,7 +66,7 @@ function Nav(): JSX.Element {
           {!isTorM && <NavSocial isTorM={isTorM} />}
           {isTorM ? (
             <SharedS.Avatar
-              src={"assets/images/headshot.png"}
+              src={"assets/images/full_body.jpg"}
               alt={`${PERSONAL_INFO.name} headshot`}
             />
           ) : (

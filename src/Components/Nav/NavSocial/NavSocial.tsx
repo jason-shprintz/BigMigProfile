@@ -1,4 +1,3 @@
-import { LINKS } from "../../../constants";
 import * as S from "../styles";
 import * as NavS from "./styles";
 import { RiFilePaper2Line } from "react-icons/ri";
@@ -18,15 +17,9 @@ interface INavSocialProps {
 const NavSocial: React.FC<INavSocialProps> = ({ isTorM }) => {
   return (
     <S.NavSocial>
-      <S.NavSocialLink href={LINKS.linkedin}>
-        <img
-          src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff"
-          alt="LinkedIn"
-        />
-      </S.NavSocialLink>
       {isTorM && (
         <NavS.NavSocialResumeLink
-          href="assets/documents/Your_Resume.pdf"
+          href="assets/documents/Miguel_Anthony_Vasquez_Resume.pdf"
           download
         >
           <RiFilePaper2Line />
