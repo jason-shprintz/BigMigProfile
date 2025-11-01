@@ -27,7 +27,7 @@ function Hero(): JSX.Element {
               alt={`${PERSONAL_INFO.name} headshot`}
             />
 
-            <S.HeroMeta>
+            <S.HeroMeta style={{ marginLeft: "10px" }}>
               <S.MetaName>{PERSONAL_INFO.name}</S.MetaName>
               <S.MetaRole>{PERSONAL_INFO.role}</S.MetaRole>
               <S.SmallLink
