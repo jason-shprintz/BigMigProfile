@@ -8,6 +8,7 @@ import { GlobalStyle, AppContainer, AppRoot } from "../src/styles";
 import About from "./Components/About/About";
 import Loading from "./shared/Components/Loading/Loading";
 import useDeviceType from "./hooks/useDeviceType";
+import Education from "./Components/Education/Education";
 
 /**
  * The main application component that renders the portfolio site layout.
@@ -39,6 +40,7 @@ function App(): JSX.Element {
         <main>
           <Hero />
           <About />
+          <Education />
           <Experience />
           <Contact />
         </main>
