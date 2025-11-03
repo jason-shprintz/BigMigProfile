@@ -1,7 +1,7 @@
 {
   "name": "bigmigprofile",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "type": "module",
   "homepage": "https://jason-shprintz.github.io/BigMigProfile",
   "scripts": {
