@@ -1,8 +1,8 @@
-# Miguel Angelo Vasquez
+# Michael Angelo Vasquez
 
 ## High End Restaurant General Manager
 
-As a seasoned General Manager at a premier dining establishment, Miguel oversees daily operations, leads a diverse team, and ensures an exceptional guest experience. He excels at maintaining high service standards, managing budgets, and fostering a culture of excellence in hospitality.
+As a seasoned General Manager at a premier dining establishment, Michael oversees daily operations, leads a diverse team, and ensures an exceptional guest experience. He excels at maintaining high service standards, managing budgets, and fostering a culture of excellence in hospitality.
 
 ### 📫 Contact
 

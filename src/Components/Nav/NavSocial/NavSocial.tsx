@@ -19,7 +19,7 @@ const NavSocial: React.FC<INavSocialProps> = ({ isTorM }) => {
     <S.NavSocial>
       {isTorM && (
         <NavS.NavSocialResumeLink
-          href="assets/documents/Miguel_Anthony_Vasquez_Resume.pdf"
+          href="assets/documents/Michael_Anthony_Vasquez_Resume.pdf"
           download
         >
           <RiFilePaper2Line />

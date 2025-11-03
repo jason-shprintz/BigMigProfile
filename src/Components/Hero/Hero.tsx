@@ -31,7 +31,7 @@ function Hero(): JSX.Element {
               <S.MetaName>{PERSONAL_INFO.name}</S.MetaName>
               <S.MetaRole>{PERSONAL_INFO.role}</S.MetaRole>
               <S.SmallLink
-                href="assets/documents/Miguel_Anthony_Vasquez_Resume.pdf"
+                href="assets/documents/Michael_Anthony_Vasquez_Resume.pdf"
                 download
               >
                 Download Resume
